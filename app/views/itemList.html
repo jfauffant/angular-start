@@ -1,1 +1,26 @@
-<h3>{{view}}</h3>
+<style> 
+<!-- this is the CSS portion.  changes you make here will affect all HTMl elements within this page which meet the filtering criteria before the { symbol.  
+w3schools.com has good information about css selectors -->
+	#mainTable{
+		width:100%;
+	}
+	table, th, td {
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+	table#mainTable tr:nth-child(even) {
+		background-color: #ddd;
+	}
+</style>
+
+<h3>{{view}}</h3> <!-- this is the $scope.view item.  you can change $scope.view in the itemList.js to get this to change. -->
+<table id='mainTable'>
+	<tr ng-repeat="item in items"> <!-- this ng repeat takes the $scope.items array and repeats the contained html once per item -->
+		<th>{{item.name}}</th> <!-- the item, in this case matches the "item in items".  it's arbitrary, and it just means for this object in the repeat.  it could be named poop and do the same thing. -->
+		<th>{{item.color}}</th>
+		<th>{{item.indoor}}</th>
+		<th>{{item.outdoor}}</th>
+		<th>{{item.productType}}</th>
+		<th>{{item.description}}</th>
+	</tr>
+</table>

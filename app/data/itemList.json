@@ -1,0 +1,19 @@
+[{
+	"name":"Chair 1",
+	"quantity":"50",
+	"photoLocation":"chair1.jpg",
+	"color":"white",
+	"productType":"Chair",
+	"indoor":true,
+	"outdoor":true,
+	"description":"white multi-use chair"
+},{
+	"name":"Chair 2",
+	"quantity":"150",
+	"photoLocation":"chair2.jpg",
+	"color":"black",
+	"productType":"Chair",
+	"indoor":false,
+	"outdoor":true,
+	"description":"black outdoor chair"
+}]
