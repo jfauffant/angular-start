@@ -7,8 +7,6 @@ angular.module('ziggyApp.itemList',[])
 		$.each(list,function(index,item){
 			$scope.items.push(item);
 		})
-		
-		$scope.$apply(); // we're in a promise.  This happens off of the main thread's processing cycle, so the $scope.$apply() command is used to say, "process any changes that happened in here"
 	},function(error){
 		console.error(error);
 	})
