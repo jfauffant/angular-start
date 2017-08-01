@@ -1,0 +1,10 @@
+[{
+	name::"Chair 1",
+	quantity:"50",
+	photoLocation:"chair1.jpg",
+	color:"white",
+	productType:"Chair",
+	indoor:true,
+	outdoor:true
+	description:"white multi-use chair"
+}]

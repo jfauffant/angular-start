@@ -1,9 +1,0 @@
-name,quantity,photoLocation,color,productType,productFamily,description
-Chair 1,50,chair1.jpg,white,chair,Indoor,white outdoor chair
-Chair 2,50,chair2.jpg,wood,chair,Indoor,wooden chair
-Chair 3,50,chair3.jpg,black,chair,Outdoor,black plastic chair
-Napkin 1,600,napkin1.jpg,red,napkin,Paper,red paper napkins
-Napkin 2,1200,napkin2.jpg,blue,napkin,Cloth,blue cloth napkins
-Table 1,15,table1.jpg,wood,table,Round,8' round table
-Table 2,20,table2.jpg,wood,table,Round,10' round table
-Table 3,98,table3.jpg,white,table,Rectangle,15' x 3' rectangular table
