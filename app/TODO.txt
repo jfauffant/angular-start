@@ -1,0 +1,21 @@
+Use CSS to style the header to look different
+ - or -
+Look up an angular table library to handle tables better
+
+add table column for photo
+add photos to 'the database'
+make photos show up in table row
+Fill out database
+before and after (mouseover/click/mousedown/swipe/button/toggle) (garfield/garfield eating lasagna photo)
+make it pretty
+table columns to be sortable and filterable (think big, toggle category buttons? on/off options?)
+
+
+
+Will probably require 3 total pages
+  1. database
+  2. customer intake
+  3. past jobs to show off
+  4. (possible) about us
+
+  social media links
