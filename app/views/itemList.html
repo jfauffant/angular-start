@@ -16,6 +16,14 @@ w3schools.com has good information about css selectors -->
 
 <h3>{{view}}</h3> <!-- this is the $scope.view item.  you can change $scope.view in the itemList.js to get this to change. -->
 <table id='mainTable'>
+	<tr> <!-- this ng repeat takes the $scope.items array and repeats the contained html once per item -->
+		<th>Name</th> <!-- the item, in this case matches the "item in items".  it's arbitrary, and it just means for this object in the repeat.  it could be named poop and do the same thing. -->
+		<th>Color</th>
+		<th>Indoor</th>
+		<th>Outdoor</th>
+		<th>Product Family</th>
+		<th>Desc.</th>
+	</tr>
 	<tr ng-repeat="item in items"> <!-- this ng repeat takes the $scope.items array and repeats the contained html once per item -->
 		<th>{{item.name}}</th> <!-- the item, in this case matches the "item in items".  it's arbitrary, and it just means for this object in the repeat.  it could be named poop and do the same thing. -->
 		<th>{{item.color}}</th>
